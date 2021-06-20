@@ -8,6 +8,12 @@ body {
   font-family: "Lexend Deca", sans-serif;
 }
 
+img {
+  border-radius: 0 5px 5px 0;
+}
+
+/* class styling */
+
 .main-par {
   color: hsla(0, 0%, 100%, 0.75);
   margin-top: 1rem;
@@ -32,6 +38,7 @@ body {
 
 .stat-head {
   color: hsla(0, 0%, 100%, 0.6);
+  font-size: 1rem;
 }
 
 .heading {
@@ -90,13 +97,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 2rem 0 0;
-}
-.stat-head {
-  font-size: 1rem;
-}
-
-img {
-  border-radius: 0 5px 5px 0;
+  text-transform: uppercase;
 }
 
 .attribution {
@@ -111,6 +112,8 @@ img {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* Media queries */
 
 @media screen and (max-width: 940px) {
   .container {
