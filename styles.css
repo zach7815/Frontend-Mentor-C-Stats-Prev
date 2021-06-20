@@ -64,7 +64,7 @@ img {
   align-items: center;
   position: relative;
   bottom: 0.2%;
-  min-width: 22.5rem;
+  min-width: 27.656rem;
 }
 
 .fullStats {
@@ -127,6 +127,7 @@ img {
     width: 24.82rem;
     border-radius: 0 0 5px 5px;
     text-align: center;
+    min-width: 0;
   }
 
   .main-par {
