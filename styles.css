@@ -161,7 +161,7 @@ img {
 
 @media screen and (max-width: 420px) {
   .text {
-    height: 52vh;
+    height: 54vh;
     position: relative;
     bottom: 3.2%;
     width: 15.5rem;
@@ -199,6 +199,7 @@ img {
   }
   .stats {
     font-size: 1rem;
+    margin: 0 0 1rem 0;
   }
   .stat-head {
     font-size: 0.8rem;
@@ -220,7 +221,7 @@ img {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
   .heading {
     font-size: 1rem;
   }
@@ -243,7 +244,7 @@ img {
   }
 
   .fullStats {
-    margin: 1rem 2rem 0 2rem;
+    margin: 0 2rem 0 2rem;
     text-transform: uppercase;
   }
 
